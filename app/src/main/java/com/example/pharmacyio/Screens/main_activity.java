@@ -1,16 +1,17 @@
-package com.example.pharmacyio;
+package com.example.pharmacyio.Screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Register_store extends AppCompatActivity {
+import com.example.pharmacyio.R;
+
+public class main_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_store);
-
+        setContentView(R.layout.activity_main);
 
     }
 }

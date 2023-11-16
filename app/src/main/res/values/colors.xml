@@ -10,4 +10,6 @@
     <color name="theme_color">#1D49E4</color>
     <color name="default_color">#424040</color>
 
+    <color name="theme__color">#113259</color>
+
 </resources>

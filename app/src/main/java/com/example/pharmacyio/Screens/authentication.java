@@ -1,14 +1,16 @@
-package com.example.pharmacyio;
+package com.example.pharmacyio.Screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CardList_details extends AppCompatActivity {
+import com.example.pharmacyio.R;
+
+public class authentication extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_card_list_details);
+        setContentView(R.layout.activity_authentication);
     }
 }
