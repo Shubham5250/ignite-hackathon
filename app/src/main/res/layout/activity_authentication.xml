@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".Screens.authentication">
 
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signup_password"
+        app:layout_constraintHorizontal_bias="0.523"
+        android:background="@color/theme__color"
+        app:layout_constraintStart_toStartOf="@+id/signup_password"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_email" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signup_password"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/signup_password"
+        app:layout_constraintTop_toBottomOf="@+id/signup_password"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

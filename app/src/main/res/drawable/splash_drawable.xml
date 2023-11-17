@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:drawable="@color/theme__color">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@color/theme__color"/>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/final_splash"/>
 
-</item>
-</selector>
+        <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"
+            android:duration="2000" />
+    </item>
+</layer-list>

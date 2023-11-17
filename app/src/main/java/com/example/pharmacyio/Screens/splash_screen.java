@@ -25,7 +25,7 @@ public class splash_screen extends AppCompatActivity {
             @Override
             public void run() {
                 // Start the main activity after the specified duration
-                startActivity(new Intent(splash_screen.this, main_activity.class));
+                startActivity(new Intent(splash_screen.this, authentication.class));
                 finish();
             }
         }, SPLASH_DURATION);
